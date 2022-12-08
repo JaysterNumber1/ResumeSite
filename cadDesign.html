@@ -9,24 +9,27 @@
     </head>
     <body>
        
-        <nav class = "heroText">
-         
-            <button class = "heroButton" onclick="goToHome()">
+        <nav class = "sidebar" id = "Sidebar">
+           
+            <button id = "closeButton" onclick="closeSide()"   class = "sideButton">Close &times;</button>
+            <br>
+            <button class = "sideButton" onclick="goToHome()">
                 <p>Home Page</p>
             </button>
-            <button class = "heroButton" onclick="goToAbout()">
+            <button class = "sideButton" onclick="goToAbout()">
                 <p>About Me</p>
             </button>
-            <button class = "heroButton" onclick="goToComputer()">
+            <button class = "sideButton" onclick="goToComputer()">
                 <p>Computer Interests</p>
             </button>
-            <button class = "heroButton" onclick="goToCAD()">
+            <button class = "sideButton" onclick="goToCAD()">
                 <p>CAD Design</p>
             </button>
-            <button class = "heroButton" onclick="goToContact()">
+            <button class = "sideButton" onclick="goToContact()">
                <p>Contact Me!</p>
             </button>
         </nav>
+        <button id="menuButton" onclick="openSide()" >☰</button>
         <h1>
             Drafting
         </h1>

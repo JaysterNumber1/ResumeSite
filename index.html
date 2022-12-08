@@ -9,29 +9,37 @@
         <script src="functions.js"></script>
     </head>
     <body>
-        <div class = hero>
-        <h1 id = "mainHero" >Jarrett Sorensen</h1>
-        <h2 id = "subHero">Aspiring Computer Programmer, Future College Student, and Learner</h2>
-       
-        <nav class = "heroText">
+        
+        <nav class = "sidebar" id = "Sidebar">
            
-            <button class = "heroButton" onclick="goToHome()">
+            <button id = "closeButton" onclick="closeSide()"   class = "sideButton">Close &times;</button>
+            <br>
+            <button class = "sideButton" onclick="goToHome()">
                 <p>Home Page</p>
             </button>
-            <button class = "heroButton" onclick="goToAbout()">
+            <button class = "sideButton" onclick="goToAbout()">
                 <p>About Me</p>
             </button>
-            <button class = "heroButton" onclick="goToComputer()">
+            <button class = "sideButton" onclick="goToComputer()">
                 <p>Computer Interests</p>
             </button>
-            <button class = "heroButton" onclick="goToCAD()">
+            <button class = "sideButton" onclick="goToCAD()">
                 <p>CAD Design</p>
             </button>
-            <button class = "heroButton" onclick="goToContact()">
+            <button class = "sideButton" onclick="goToContact()">
                <p>Contact Me!</p>
             </button>
         </nav>
-        </div>
+        <button id="menuButton" onclick="openSide()" >☰</button>
+    <div class = hero>
+        <h1 id = "mainHero" >Jarrett Sorensen</h1>
+        <br>
+        <h2 id = "subHero">Aspiring Computer Programmer, Future College Student, and Learner</h2>
+       
+    </div>
+
+        
+        
 
     </body>
 </html>

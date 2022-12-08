@@ -8,27 +8,46 @@
         <script src="functions.js"></script>
     </head>
     <body>
-        
-        <nav class = "heroText">
-          
-            <button class = "heroButton" onclick="goToHome()">
+        <div id="page">
+            <div id="content-wrap">
+        <nav class = "sidebar" id = "Sidebar">
+           
+            <button id = "closeButton" onclick="closeSide()"   class = "sideButton">Close &times;</button>
+            <br>
+            <button class = "sideButton" onclick="goToHome()">
                 <p>Home Page</p>
             </button>
-            <button class = "heroButton" onclick="goToAbout()">
+            <button class = "sideButton" onclick="goToAbout()">
                 <p>About Me</p>
             </button>
-            <button class = "heroButton" onclick="goToComputer()">
+            <button class = "sideButton" onclick="goToComputer()">
                 <p>Computer Interests</p>
             </button>
-            <button class = "heroButton" onclick="goToCAD()">
+            <button class = "sideButton" onclick="goToCAD()">
                 <p>CAD Design</p>
             </button>
-            <button class = "heroButton" onclick="goToContact()">
+            <button class = "sideButton" onclick="goToContact()">
                <p>Contact Me!</p>
             </button>
         </nav>
-        <h1>
-            What I Like:
+        <button id="menuButton" onclick="openSide()" >☰</button>
+        <div id="heroImage">
+        <h1 class="topic">
+            About Jarrett Sorensen
         </h1>
+        <img src="" alt="A picture of Jarrett S">
+        <p>
+            Jarrett Sorensen is a current Senior at Wasatch High School
+            
+            
+            
+        </p>
+    </div>
+    </div>
+        <footer id="footer">
+            <p>@JaysterNumber1</p>
+        </footer>
+
+         </div>
     </body>
 </html>

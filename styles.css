@@ -1,28 +1,130 @@
-.heroButton{
-    width: 15vw;
+.sideButton{
+    width: 30vw;
     border: none;
-    transition: .3s;
+    font-size: 2vh;
+   
   
 }
-.heroButton:hover{
+.sideButton:hover{
     background-color: gray;
     color: white;
-    
-}
-.heroText{
-    margin: 0%;
-    padding: 0%;
-    font-size: 0%;
-    margin-left: 12.5%;
+    cursor: pointer;
+    transition: .3s;
     
    
+    
+}
+.sidebar{
+    top: 0px;
+    left: 30vw;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 100%;
+        position: absolute;
+        z-index: 2;
+        display: block;
+        
+       
 }
 
 body{
+    overflow-x: hidden;
     margin:0%;
-    color: black;
+    background-color: lightgray;
 }
-.heroButton>a{
+
+.sideButton>a{
     list-style: none;
     text-decoration: none;
+   
+
+}
+
+#closeButton{
+    font-size: 2vh;
+    height: 4vh;
+    
+
+}
+#menuButton{
+    top: 0px;
+    right: 0px;
+    padding: 0%;
+    width: 6vw;
+    border: none;
+    font-size: 4vh;
+    margin-left: 94%;
+    height: 6vh;
+    position: absolute;
+    z-index: 1;
+    background-color: lightgray;
+   
+}
+#menuButton:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+#mainHero{
+    margin: 0%;
+    padding: 0%;
+ 
+    font-size: 6vh;
+
+}
+#subHero{
+   
+    margin: 0%;
+    font-size: 2vh;
+    padding: 0%;
+}
+.hero{
+    display: inline-block;
+    margin: 0%;
+    text-align: center;
+    border: black 2px solid;
+    margin-left: 7vw;
+    width: 70vw;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding-top:35vh;
+    padding-bottom: 35vh;
+     padding-left: 8vw;
+     padding-right: 8vw;
+
+}
+#heroImage{
+    background-position: 100% 100%;
+    
+
+   
+}
+.topic{
+    margin-left: 5vw;
+    padding-top: 5vh;
+    margin-top: 0%;
+    font-size: 5vw;
+    text-decoration: underline;
+}
+#footer{
+    position: absolute;
+    
+    bottom: 0px;
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+#footer>p{
+    text-align: center;
+    color: white;
+    margin-top: 1.75vh;
+    
+}
+#page{
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap{
+    padding-bottom: 5vh;
 }
