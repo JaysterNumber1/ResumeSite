@@ -100,21 +100,7 @@ body{
     font-size: 2vh;
     padding: 0%;
 }
-.hero{
-    display: inline-block;
-    margin: 0%;
-    text-align: center;
-    border: black 2px solid;
-    margin-left: 7vw;
-    width: 70vw;
-    margin-right: auto;
-    margin-top: 10vh;
-    padding-top:35vh;
-    padding-bottom: 35vh;
-     padding-left: 8vw;
-     padding-right: 8vw;
 
-}
 #heroImage{
     background-position: 100% 100%;
     
@@ -173,6 +159,7 @@ img{
     margin-right: auto;
 }
 .subHeader{
+    font-size: 5vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
     text-align: center;   
@@ -244,4 +231,38 @@ img{
     background-color: black;
     color: white;
     cursor: pointer;
+}
+@keyframes hor-movement {
+    from {
+      margin-left: 7vw;
+    }
+    to {
+      margin-left: 38vw;
+    }
+  }
+  
+  @keyframes ver-movement {
+    from {
+      margin-top: 9vh;
+    }
+    to {
+      margin-top: 70vh;
+    }
+  }
+
+
+  .hero{
+    display: inline-block;
+    margin: 0%;
+    text-align: center;
+    border: black 2px solid;
+    margin-left: 7vw;
+    width: 70vw;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding-top:35vh;
+    padding-bottom: 35vh;
+     padding-left: 8vw;
+     padding-right: 8vw;
+
 }
