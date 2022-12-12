@@ -8,7 +8,7 @@
         <script src="functions.js"></script>
     </head>
     <body>
-       
+       <div id ="content-wrap">
         <nav class = "sidebar" id = "Sidebar">
            
             <button id = "closeButton" onclick="closeSide()"   class = "sideButton">Close &times;</button>
@@ -30,8 +30,20 @@
             </button>
         </nav>
         <button id="menuButton" onclick="openSide()" >☰</button>
-        <h1>
+        <h1 class = "topic">
             Contact Me!
         </h1>
+       
+        <input type="text" name="subject" id="leftForm" placeholder="Subject" required>
+       
+        <input type="email" placeholder="something123@gmail.com" id = "rightForm" required>
+       
+       <input type="text" placeholder="Input text here!" id = "textBox" required>
+       <input type="submit"  id="submit">
+    </div>
+    </div>
+        <footer id="footer">
+            <p>@JaysterNumber1</p>
+        </footer>
     </body>
 </html>

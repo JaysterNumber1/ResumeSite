@@ -46,7 +46,7 @@ body{
     
 
 }
-#menuButton{
+#menuButtonHome{
     top: 0px;
     right: 0px;
     padding: 0%;
@@ -60,7 +60,28 @@ body{
     background-color: lightgray;
    
 }
+#menuButton{
+    top: 0px;
+    right: 0px;
+    padding: 0%;
+    width: 6vw;
+    border: none;
+    font-size: 4vh;
+    margin-left: 94%;
+    height: 6vh;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+   
+}
 #menuButton:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+#menuButtonHome:hover{
     background-color: gray;
     color: white;
     cursor: pointer;
@@ -101,8 +122,12 @@ body{
    
 }
 .topic{
-    margin-left: 5vw;
+    background-color: black;
+    color: white;
+    letter-spacing: .15vw;
+    padding-left: 5vw;
     padding-top: 5vh;
+    padding-bottom:2vh;
     margin-top: 0%;
     font-size: 5vw;
     text-decoration: underline;
@@ -127,4 +152,96 @@ body{
 }
 #content-wrap{
     padding-bottom: 5vh;
+}
+#body{
+   
+    font-size: 3vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: auto;
+}
+#list{
+    line-height: 1.6;
+    font-size: 2.5vw;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: auto;
+}
+img{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: auto;
+}
+.subHeader{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;   
+}
+.subIMG{
+    display: inline-block;
+    object-fit: cover;
+    height: 50vh;
+    width: 50vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+.contentText{
+
+    margin-left: 5vw;
+    font-size:3vh;
+    margin-right: auto;
+    width: 30vw;
+    
+   
+}
+.section{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    padding-bottom: 5vh;
+}
+
+.contact{
+    margin-left: 20vw;
+     margin-right: auto;
+   
+     
+}
+#leftForm{
+    
+    width: 40vw;
+    margin-left: 7.5vw;
+    padding: 1vw;
+    margin-right: 1vw;
+}
+#rightForm{
+        margin-left: 0%;
+        width: 40vw;
+      
+        padding: 1vw;
+
+}
+#textBox{
+    
+    
+    margin-top: 2.5vh;
+    width: 85.5vw;
+    height: 50vh;
+    margin-left: 7.5vw;
+    
+}
+#submit{
+   
+    width: 20vw;
+    height: 5vh;
+
+
+    margin-left: 73.5vw;
+    
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
